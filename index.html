@@ -1,120 +1,127 @@
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+  <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Online Banking ..</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-function ctck()
-{
-var sds = document.getElementById("dum");
-
-}
-</script>
-
-</head>
-
+<meta charset="UTF-8">
+<title>Pizza</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.pizza.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+</style>
 <body>
+<!-- Start Content -->
+<div id="home" class="w3-content">
 
-<div id="top_links">
+<!-- Navbar (Sits on top) -->
+<div class="w3-top w3-bar w3-xlarge w3-black w3-opacity-min">
+<a href="#home" class="w3-bar-item w3-button">HOME</a>
+<a href="#menu" class="w3-bar-item w3-button">MENU</a>
+<a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+<a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+</div>
   
-
-<div id="header">
-	<h1>Online Banking System<span class="style1"></span></h1>
-	<h1>For RIO Bank Co.Ltd<span class="style1"></span></h1>
-    <h2>Extra Ordinary Service</h2>	
-
+<!-- Header image -->
+<div style="height:800px;background-image:url('img_pizza.jpg');background-size:cover"
+class="w3-display-container w3-grayscale-min">
+<div class="w3-display-bottomleft">
+  <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+</div>
+<div class="w3-display-middle w3-center">
+  <span class="w3-text-white" style="font-size:100px">thin<br>CRUST PIZZA</span>
+  <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+</div>
+</div>
+	<!-- Menu -->
+<div id="menu" class="w3-container w3-black w3-xxlarge w3-padding-64">
+<h1 class="w3-center w3-jumbo w3-padding-32">THE MENU</h1>
+<div class="w3-row w3-center w3-border w3-border-dark-grey">
+<a href="#pizza"><div class="w3-third w3-padding-large w3-red">Pizza</div></a>
+<a href="#pasta"><div class="w3-third w3-padding-large w3-hover-red">Pasta</div></a>
+<a href="#starters"><div class="w3-third w3-padding-large w3-hover-red">Starters</div></a>
+</div>
+<div id="pizza" class="w3-container w3-white w3-padding-32">
+<h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+<p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+<hr>
+<h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+<p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+<hr>
+<h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
+<p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+</div>
+<h1 id="pasta" class="w3-center w3-jumbo w3-padding-32">PASTA</h1>
+<div class="w3-container w3-white w3-padding-32">
+<h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+<p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+<hr>
+<h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+<p class="w3-text-grey">Ravioli filled with cheese</p>
+<hr>
+<h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
+<p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+</div>
+<h1 id="starters" class="w3-center w3-jumbo w3-padding-32">STARTERS</h1>
+<div class="w3-container w3-white w3-padding-32">
+<h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+<p class="w3-text-grey">Ask the waiter</p>
+<hr>
+<h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+<p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+<hr>
+<h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+<p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+</div>
 </div>
 
-<div id="navigation">
-    <ul>
-	<li><a href="create1.html">NEW CUSTOMER</a></li>
-    <li><a href="login.html">LOGIN</a></li>
-    
-    <li><a href="about.jsp">ABOUT US</a></li>
-    </ul>
-</div>
-
-<table cellpadding="0" cellspacing="0" id="content1"><tr align="justify">
-	<td class="con" valign="top">
-    	<div id="heade1"><h1>Results</h1></div>
-        <p>This is  Global Business bank which is under business and finance category for your website design. Freedesignertemplates.com is a free collection of site templates with HTML layouts which are frequently updated.<br><br>
-        These web design layouts are developed by the professional designers for you to make your task easy in creating a website and are easy to download. 
-      
-
+<!-- About -->
+<div id="about" class="w3-container w3-red w3-grayscale w3-xlarge w3-padding-64">
+<h1 class="w3-center w3-jumbo">About</h1>
+<p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p><strong>The Chef?</strong> Mr. Italiano himself<img src="/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+<p>We are proud of our interiors.</p>
+<p class="w3-padding-16 w3-stretch">
+<img src="img_restaurant.jpg" style="width:100%" alt="Restaurant">
 </p>
-    </td>
-    
-    <td class="con" valign="top">
-    	<div id="heade2"><h1>Opportunities</h1></div>
-        <p> These Global Business bank would be idle for building a successful online businesses.  Download the required HTML template, install it and edit the existing content with your original text.<br><br>
-
-The entire website   are pre-designed websites all you need to do is adding your own personal content and start your own website. 
-
-</p>
-    </td>
-    
-    <td class="con" valign="top">
-    	<div id="heade3"><h1>Solutions</h1></div>
-        <p>There are various other template categories like Art, Finance, Nature, Night club, Communication, Computer, Music, Religious, Fashion, Holiday, Travel, Health, Medicine. This free Global Business bank which is built using XHTML and CSS.<br>
-        
-        These   are user friendly that any user can download and customize it according to their wish.
-        
-    </td>
-</tr></table>
-
-<table style="width:897px; background:#FFFFFF; margin:0 auto;"><tr align="justify">
-	<td width="299" valign="top" style="border-right:#666666 1px dotted;">
-    	<div id="services"><h1>Services</h1><br>
-		    <ul>
-        	<li><a href="#">www.javatpoint.com</a></li>
-            <li><a href="#">www.javacstpoint.com </a></li>
-            <li><a href="#">www.javatpoint.com/forum.jsp</a></li>
-            </ul>
-			
-       </div>
-	</td>
-    
-    <td width="299" valign="top">
-    	<div id="welcome" style="border-right:#666666 1px dotted;"><h1>Welcome</h1><br>
-    	    <center><img src="images/globe_10.gif" alt="business" width="196" height="106"></center><br>
-		    <p>Each people plan their site layouts depending upon their business type. Here comes a free designer template which provides you with a selection of different kinds of webdesign   starting from business template, fashion template, media template, Science template, Arts template and much more.</p>
-	    	
-	    </div>      
-    </td>
-    
-    <td width="299" valign="top">
-   	  <div id="news"><h1>News &amp; Events</h1><br>
-      	<div class="img"><img src="images/globe_12.gif" alt="Business"></div>
-        <h2>Nov. 17, 2008.</h2>
-        <p>Get your dream web design at no cost, no extra manpower for your professional website.</p><br>
-        <div class="img"><img src="images/globe_16.gif" alt="Business"></div>
-        <h2>Nov. 17, 2008.</h2>
-        <p>Get your dream web design at no cost, no extra manpower for your professional website.</p>
-      
-      </div>
-        	
-     </td>
-</tr></table>
-
-<div id="footer_top">
-  <div id="footer_navigation">
-  
-
-  </div>
-  
-  <div id="footer_copyright" >
- 
-    	    <center><img  alt="business"  width="196" height="106"></center><br>
-		    <p>Each people plan their site layouts depending upon their business type. Here comes a free designer template which provides you with a selection of different kinds of webdesign   starting from business template, fashion template, media template, Science template, Arts template and much more.</p>
-	  
-  Copyright © Your Company Name</div>
+<h1><b>Opening Hours</b></h1>
+<div class="w3-row">
+<div class="w3-half">
+  <p>Mon & Tue CLOSED</p>
+  <p>Wednesday 10.00 - 24.00</p>
+  <p>Thursday 10:00 - 24:00</p>
+</div>
+<div class="w3-half">
+  <p>Friday 10:00 - 12:00</p>
+  <p>Saturday 10:00 - 23:00</p>
+  <p>Sunday Closed</p>
+</div>
+</div>    
 </div>
 
-<script type="text/javascript">
-document.onload = ctck();
-</script>
+<!-- Contact -->
+<img id="contact" src="map.jpg" class="w3-image w3-greyscale" alt="Map" style="width:100%">
+<div class="w3-container w3-blue-grey w3-grayscale-min w3-xlarge w3-padding-top-32">
+<h1 class="w3-center w3-jumbo">Contact</h1>
+<p>Find us at some address at some place or call us at 05050515-122330</p>
+<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+<p class="w3-xxlarge"><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+<p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+</form>
+<p class="w3-center w3-xlarge w3-padding-32">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank">w3.css</a></p>
 </div>
 
+<!-- End Content -->
+</div>
 </body>
 </html>
+
+
+
