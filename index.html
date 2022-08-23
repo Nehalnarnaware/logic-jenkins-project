@@ -1,83 +1,110 @@
-
-<html>
+ <html>
 <head>
-<style>
-img {
- float:left 
+    <style>
+        body{
+   font-size:20px;
+            color: white;
+            background-size: cover;
+        }
+         .box{ width: 900px;
+       float:right;
+       border:1px solid none;}
+       .box ul li{
+           width: 120px;
+           float:left;
+           margin: 10px auto;
+           text-align: center;
+       }
+ .mainmenu
+.mainmenu a
+.mainmenu a:hover
+.mainmenu img{
+position: fixed;
+z-index: -1;
+top:0px; left:0px; width:100%; height: 100vh;
+opacity: 0.9;
+/*object-fit:cover;*/
+transition: all ease 0.5s;
 }
-</style>
+   .wd{
+           width: 300px;
+           height: 539px;
+           background-color: black;
+           opacity: 0.8;
+           padding: 55px;
+       }
+       .wd h1{
+           text-align: center;
+           text-transform: uppercase;
+           font-weight: 300px;
+       }
+       .wd h4{
+           text-align: justify;
+           color:darkgray;
+           font-weight: 100px;
+       }
+       .wd h2{
+           text-align: center;
+           text-transform: uppercase;
+           font-weight: normal;
+           margin: 40px auto;
+       }
+       .opt form , input[type="button"]{
+           background-color: black;
+           color:white;
+         /* padding:10px;*/
+           margin:-14px auto;
+           padding-left: 50px;
+           padding-right: 50px;
+           text-align: center;
+           font-size: 16px;
+       }
+     form, input[type="button"] {
+       animation: glowing 300ms infinite;
+       font-weight: 500%;
+      }
+      @keyframes glowing {
+ 0% {
+   background-color: red;
+ }
+ 50% {
+   background-color: orange;
+ }
+ 100% {
+   background-color: blue;
+ }
+}
+   </style>
 </head>
 <body>
-
-<h1 style="margin-left:40%">Chicken Biriyani</h1>
-
-<p>One of the most royal delicacies that you can enjoy on any occasion or festival, 
-Chicken Biryani is the epitome of a one-pot meal. Well, no one can resist the sight of 
-the aromatic and delicious Chicken Biryani recipe. If you are also craving for that,
- then you need not go anywhere as we have got this super-easy biryani recipe for you.
- So, what are you waiting for? Do try this delicious Chicken Biryani recipe and enjoy 
-it with your loved ones.</p>
-<div style="padding:3%">
-<p>
-<img src="https://simmertoslimmer.com/wp-content/uploads/2018/01/South-Indian-chicken-biryani.jpg" 
-alt="Pineapple" style="width:47%;height:100%;margin-right:3%;">
-<h2 style="margin-left:67%"> Ingredients </h2>
-<ul style="float:left">
-<li>1 cup boiled basmati rice</li>
-<li>1/2 teaspoon mint leaves</li>
-<li>salt as required</li>
-<li>2 tablespoon refined oil</li>
-<li>3 green cardamom</li>
-<li>2 clove</li>
-<li>2 onion</li>
-<li>1 teaspoon turmeric</li>
-<li>1 tablespoon garlic paste</li>
-<li>1 cup hung curd</li>
-<li>2 tablespoon coriander leaves</li>
-<li>water as required</li>
-<li>1 tablespoon ghee</li>
-</ul>
-<ul style="float: right">
-<li>600 gm chicken</li>
-<li>1 tablespoon garam masala powder</li>
-<li>1 teaspoon saffron</li>
-<li>1 tablespoon bay leaf</li>
-<li>1 black cardamom</li>
-<li>1 teaspoon cumin seeds</li>
-<li>4 green chillies</li>
-<li>1 tablespoon ginger paste</li>
-<li>1 teaspoon red chilli powder</li>
-<li>1/2 tablespoon ginger</li>
-<li>2 drops kewra</li>
-<li>1 tablespoon rose water</li>
-</ul></p>
-
-<h2 style="margin-top:24%;margin-left:67%">Recipe</h2>
-<h4 >Step 1 Prepare saffron and kewra water</h4>
-<p>To make delightful chicken biryani, soak saffron in water to prepare saffron water.
- Next, mix kewra drops in water and mix well to make kewra water.</p>
-
-<h4>Step 2 Saute onions and tomatoes for 2-3 minutes</h4>
-<p>In the meanwhile, heat refined oil in a deep bottomed pan. Once the oil is hot enough. 
-Add cumin seeds, bay leaf, green cardamom, black cardamom, cloves in it, and saute for about a minute. 
-Then, add chopped onion in it and saute until pink. 
-Now, add chicken into it with slit green chillies, turmeric, salt to taste, ginger garlic paste, red chilli powder, and green chilli paste. 
-Mix well all the spices and cook for 2-3 minutes. Then, add hung curd into it</p>
-
-<h4 style="margin-top:5%;">Step 3 Cook biryani on low heat for 5-6 minutes</h4>
-<p>Turn the flame to medium again and add garam masala in it along with ginger julienned, coriander and mint leaves. 
-Add kewra water, rose water and saffron water in it. Cook till the chicken is tender.</p>
-
-<h4>Step 4 Serve hot chicken biryani with your favourite chutney or raita</h4>
-<p>Then add 1 cup cooked rice and spread evenly. Then add saffron water and pour ghee over it. Cook for 15-20 minutes with closed lid and garnish with 1 tbsp fried onions and coriander leaves. 
-Serve hot chicken biryani.</p>
-<h2 style="margin-top:2%;">Tips</h2>
-<ol>
-<li>
-The first and foremost important thing to take care of while preparing chicken biryani recipe is, always use a heavy-bottomed pan as you would not want the chicken getting cooked.
-</li>
-<li>
-The restaurant-style chicken biryani recipe uses the whole chicken in preparation and the chicken breast can dry when cooking at home. It's always suggested to use chicken thigh o...
-</li>
-<li>If you want your chicken to be juicier in your biryani, do not remove the bone.
-</li>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(function(){
+var image = $(".mainmenu").find('img').attr('src');
+$(".mainmenu a").mouseover(function(){
+var newimg = $(this).attr('data-image');
+$(this).parent().find('img').attr("src", newimg);
+});
+});
+</script>
+   <div class="box">
+<div class="mainmenu">
+<img src="food.png">
+<a data-image = "food.png" href=""> Home</a>
+<a data-image = "menucard.jpg" href=""> Menu</a>
+<a href=""> FAQ</a>
+<a href=""> Contact</a>
+</div>
+   </div>
+   <div class="wd">
+<h1> Welcome to xxx</h1>
+<h4> <i>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
+<h2> Call 999999999 for reservations</h2>
+<div class="opt">
+<form action="" method="post">
+<input type="button" value="ORDER NOW">
+</form>
+</div>
+</div>
+</body>
+</html>
